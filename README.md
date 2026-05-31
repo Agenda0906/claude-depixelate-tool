@@ -229,7 +229,3 @@ Pixelated/
 - 本工具鏈透過 [Claude Code](https://github.com/anthropics/claude-code) 輔助開發
 
 ---
-
-## 參考文獻
-
-- 林奕丞，《AI 輔助還原馬賽克：以 Claude Code 重構 DepixHMM 結合 Beam Search 演算法的實踐與資安啟示》，台灣 E 化資安分析管理協會 (ESAM) / 中央警察大學資訊密碼暨建構實驗室 (ICCL)，2025。
