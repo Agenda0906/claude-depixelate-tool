@@ -1,0 +1,5 @@
+# Core dependencies (same as DepixHMM/requirements.txt)
+numpy>=1.21
+Pillow>=8.3
+rstr>=3.0
+scikit-learn>=0.24
