@@ -1,6 +1,6 @@
 # AI 輔助還原馬賽克：以 Claude Code 重構 DepixHMM 結合 Beam Search 演算法的實踐與資安啟示
 
-> **⚠️ 資安教育用途聲明**  
+> **⚠️ 資安研究用途聲明**  
 > 本工具集為學術研究與資安目的而開發，旨在揭示馬賽克遮蔽的侷限性，促進更安全的資料遮蔽實踐。請勿用於未授權的資料存取。
 
 本專案以 [DepixHMM](https://github.com/JonasSchatz/DepixHMM) 為基礎，透過 [Claude Code](https://github.com/anthropics/claude-code)（AI 驅動的命令列開發工具）輔助，建構出一套改良版 Python 工具鏈，用於還原被馬賽克遮蔽的等寬字型文字截圖。核心解碼器採用 **Beam Search 純像素 MSE 比對**，實驗中 MSE 全部低於 0.22。
