@@ -216,8 +216,8 @@ def main() -> None:
         # ----- parameter resolution -----
         if args.auto:
             _ANALYSIS = Path(__file__).resolve().parent.parent / "analysis"
-            if str(_ANALYSIS) not in sys.path:
-                sys.path.insert(0, str(_ANALYSIS))
+            if str(_ANALYSIS) not in _sys.path:
+                _sys.path.insert(0, str(_ANALYSIS))
             from detect_params import detect_all   # lazy import (only when needed)
             print(f"[auto] {name} — detecting params ...", flush=True)
             params = detect_all(img_path, verbose=False)
